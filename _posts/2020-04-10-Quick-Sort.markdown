@@ -126,11 +126,9 @@ j = 5
 If that's too much of a head-scratcher, here's a visualisation of what I have done.
 
 <div style="text-align: center">
-    <img src="{{site.url}}/images/quicksort.gif">
+    <img src="/images/quicksort.gif">
 </div>
 <br>
 Thank you for making it to the end of the post. 
 <br>
 This is how I finally put in the time and effort to learn the workings of the Quick Sort algorithm which was initially a nightmare for me. I hope this blog helped you too. 
-<br>
-If you'd want to get in touch with me, please visit me at my <a href="www.ananthkamath.com"><b><i><u> website</u></i></b> </a> for all my contact details.
