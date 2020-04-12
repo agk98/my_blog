@@ -118,8 +118,8 @@ j = 5
     A[j] = 7    j = 4
     A[pivot] = 6    pivot = 0
 
--> The function returns j and then QuickSort is again called on the arrays to the left 
-    and to the right of j.
+-> The function returns j and then QuickSort is again 
+    called on the arrays to the left and to the right of j.
 
 ```
 
