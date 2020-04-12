@@ -126,7 +126,7 @@ j = 5
 If that's too much of a head-scratcher, here's a visualisation of what I have done.
 
 <div style="text-align: center">
-    <img src="{{site.baseurl}}/images/quicksort.gif">
+    <img src="{{site.url}}/images/quicksort.gif">
 </div>
 <br>
 Thank you for making it to the end of the post. 
