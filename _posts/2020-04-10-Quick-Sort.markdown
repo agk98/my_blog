@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Getting Over My Fear Of Quick Sort"
-description: This is my approach to learning the working of Quick Sort.
+title:  "How I Learned Quick Sort!"
+description: I always dreaded the idea of working with Quick Sort. Here, I show you how that changed.
 date:   2020-04-10
 categories: Algorithms Sorting
 ---
-I was first introduced to Quick Sort in my Algorithm's class at college. All that I could understand from my professor was that the algorithm used to select an element as a pivot and then sort all the elements around it. I could never wrap my head around how it worked and how I could implement it in my projects. 
+<p>I was first introduced to Quick Sort in my Algorithm's class at college. All that I could understand from my professor was that the algorithm used to select an element as a pivot and then sort all the elements around it. I could never wrap my head around how it worked and how I could implement it in my projects. 
 So naturally, I skipped all my exam questions that were related to it and chose to forget its existance. 
-But now, I decided to face my fears and finally tackle the quick sort problem and find out what made it so "quick". Here's how I set about doing so and ended up being super comfortable with it. 
+But now, I decided to face my fears and finally tackle the quick sort problem and find out what made it so "quick". Here's how I set about doing so and ended up being super comfortable with it. </p>
 <br/>
 <h3><b> What is Quick Sort? </b></h3>
-Quick Sort is a Divide and Conquer algorithm. It begins by picking an element from the list, called <i>pivot</i> and then re-arranges the rest of the elements in the list around this pivot to finally give us a sorted array. 
+Quick Sort is a Divide and Conquer algorithm. It begins by picking an element from the list, called <i>pivot</i> and then re-arranges the rest of the elements in the list around this pivot to finally give us a sorted array.
 <h3><b> How Does It Work? </b></h3>
 The first step is to choose an element as a pivot from the array of unsorted elements. The pivot can be selected in any of the following ways:<br>
 <ul>
@@ -84,6 +84,8 @@ QuickSort( low, high)
 
 Now, the working of the algorithm made a lot of sense to me and suddenly, I wasn't so lost anymore.
 The next step was to put my knowledge to test by working with an example. 
+<br>
+<h3><b> Let's Pair This With An Example! </b></h3>
 <br>
 Let me show you the example that I worked on along with a single run of the <b>partition</b> function.
 
