@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Quick Sort"
-description: Shows the working of Quick Sort
+title:  "How I Got Over My Fear Of Quick Sort!"
+description: This is my approach to learning the working of Quick Sort.
 date:   2020-04-10
 categories: Algorithms Sorting
 ---
