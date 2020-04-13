@@ -1,13 +1,14 @@
+
 {%- if site.texture.showNav -%}
-<div class="navbar" >
-<ul>
-	{%- if page.layout!='home' -%}
-	<li><a href="https://blog.ananthkamath.com" /><h4>Home</h4></li> 
-	{%- endif -%}
-	
-	{%- if page.layout=='home' -%}
-	<li><a href="https://ananthkamath.com" /><h4>About me</h4></li>
-	{%- endif -%}
-</ul>
+<div class="navbar">
+	<ul style="font-weight: bold; ">
+		{%- if page.layout!='home' -%}
+		<a href="https://blog.ananthkamath.com"><li>Blog Home</li></a>
+		{%- endif -%}
+
+		{%- if page.layout=='home' -%}
+		<a href="https://ananthkamath.com"><li>About Me</li></a>
+		{%- endif -%}
+	</ul>
 </div>
 {%- endif -%}
