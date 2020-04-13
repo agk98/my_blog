@@ -1,5 +1,13 @@
 {%- if site.texture.showNav -%}
-<div class="navbar" style='text-align: center'>
-	<h3><a href="https://blog.ananthkamath.com" />Home</h3>
+<div class="navbar" >
+<ul>
+	{%- if page.layout!='home' -%}
+	<li><a href="https://blog.ananthkamath.com" /><h4>Home</h4></li> 
+	{%- endif -%}
+	
+	{%- if page.layout=='home' -%}
+	<li><a href="https://ananthkamath.com" /><h4>About me</h4></li>
+	{%- endif -%}
+</ul>
 </div>
 {%- endif -%}

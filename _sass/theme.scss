@@ -153,7 +153,7 @@ header {
 .post-title {
 	color: #222;
 	transition: color .3s ease;
-	margin: .1em 0;
+	// margin: .1em 0;
 	&:hover {
 		color: $gray;
 		border-bottom: 0;
@@ -234,7 +234,7 @@ header {
 		list-style-type: none;
 		li {
 			// background-color: #ff9f1c;
-			border: 1px solid #fff;
+			// border: 1px solid #fff;
 			float: left;
 			// margin: 5px;
 			&:not(:first-child){

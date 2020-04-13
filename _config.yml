@@ -4,8 +4,8 @@ email: ananthkamath98@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   This is my little corner where I keep a record of all the new things that I learn. 
 show_excerpts: false # set to true to show excerpts on the homepage
-baseurl:
-url: "https://www.ananthkamath.com/"
+baseurl: ""
+# url: "https://www.ananthkamath.com/"
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
