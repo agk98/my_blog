@@ -91,6 +91,8 @@ As we are using the image as a desktop background, I prefer downloading the high
 <h4><u><b><a href="https://www.youtube.com/watch?v=n2Cr_YRQk7o" target="_blank"> Schedule Python Scripts with Windows Task Scheduler</a></b></u></h4>
 
 <h2><b> Thank You!</b></h2>
-<p> You have made it to the end of this article.This is how I took care of the menacing task of searching for a new wallpaper every few days.<br/> 
-Thanks for making it to the end of the article. I hope this helped you too!<br/>
+<p> You have made it to the end of this article. This is how I took care of the menacing task of searching for a new wallpaper every few days.<p>
+<p> All my code for this project is in my <a href="https://github.com/agk98/auto_wallpaper" target="_blank"> GitHub Repositoy</a>.</p>
+<br/> 
+I hope this helps you too!<br/>
 Happy Coding!</p> 

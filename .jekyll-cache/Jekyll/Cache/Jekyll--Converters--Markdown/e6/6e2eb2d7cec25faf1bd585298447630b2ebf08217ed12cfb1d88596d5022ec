@@ -1,11 +1,11 @@
-I"<p><b>Me on a monday morning:</b> <i>*log's in*</i>
+I"ƒ<p><b>Me on a monday morning:</b> <i>*log's in*</i>
 <br /><b>Also me:</b> Ugh! I hate this wallpaper!</p>
 <p> Okay, I admit that i'm being too dramatic about this. Although, it isn't really that far from true. I am notorious for constantly getting bored of my wallpaper every few days. Yes, I am one of those people who has to constantly change their wallpaper just to get the day going. My go-to source for wallpapers is <a href="https://unsplash.com/" target="_blank">Unsplash</a>. I love images that are vibrant and have a lot of minute details. Very original, I know!</p>
-<p> While I was on my last wallpaper hunt, I thought of an idea to automate this. By scheduling a change of wallpaper to happen every now and then, I could avoid the otherwise annoying task of hunting for a new one and then setting it. My mom would be so disappointed if she knew i'd become this lazy.<br /> Moving on, Here's what I did!</p>
+<p> While I was on my last wallpaper hunt, I thought of an idea to automate this. By scheduling a change of wallpaper to happen every now and then, I could avoid the otherwise annoying task of hunting for a new one and then setting it. My mom would be so disappointed if she knew i'd become this lazy.<br /> Moving on...here's what I did!</p>
 
 <!-- Section One -->
 <h2><b> Where do I download the wallpapers from? </b></h2>
-<p>Unsplash provides access to their API to anyone who creates an account.
+<p> Unsplash provides access to their API to anyone who creates an account.
 <br />I visited their developers site and registered a new application.
 <br /> In short, this is what I did:<br />
 <ol>
@@ -14,7 +14,7 @@
     <li>Be responsible and blindly accept all the terms and conditions like you always do. </li>
     <li>Put in your Application name and a small description.</li>
     <li>You can apply for production if that's what you are going for. But I would read the Terms and conditions once again before I were you. Otherwise, you might lose access to the API.</li>
-    <li>Scroll down to the <b>Access Key</b> and copy it. We'll be needing it for authorisation inside the code.</li>
+    <li>Scroll down to the <b>Access Key</b> and copy it. We'll be needing it for authorisation with the API.</li>
 </ol>
 </p>
 
@@ -81,11 +81,13 @@ As we are using the image as a desktop background, I prefer downloading the high
 <h2><b>How do I get complete automation?</b></h2>
 <p> Now what remained was for me to schedule this script to run everyday. This way, it would change the wallpaper of my desktop everyday and I wont have to go hunting for a new one constantly. I did this using the native Windows Task Scheduler. With this, I set my script to run everyday at 09:30AM.</p>
 <p> Here's a tutorial if you need help with using the Windows Task Scheduler. </p>
-<h4><u><b><a href="https://www.youtube.com/watch?v=n2Cr_YRQk7o"> Schedule Python Scripts with Windows Task Scheduler</a></b></u></h4>
+<h4><u><b><a href="https://www.youtube.com/watch?v=n2Cr_YRQk7o" target="_blank"> Schedule Python Scripts with Windows Task Scheduler</a></b></u></h4>
 
 <h2><b> Thank You!</b></h2>
-<p> You have made it to the end of this article.This is how I took care of the menacing task of searching for a new wallpaper every few days.<br /> 
-Thanks for making it to the end of the article. I hope this helped you too!<br />
+<p> You have made it to the end of this article. This is how I took care of the menacing task of searching for a new wallpaper every few days.<p>
+<p> All my code for this project is in my &lt;a href="https://github.com/agk98/auto_wallpaper" target="&gt; GitHub Repositoy&lt;/a&gt;.</p>
+<br /> 
+I hope this helps you too!<br />
 Happy Coding!</p> 
-</p>
+</p></p>
 :ET
