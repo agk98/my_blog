@@ -1,0 +1,20 @@
+I"<p>I was first introduced to Quick Sort in my Algorithm's class at college. All that I could understand from my professor was that the algorithm used to select an element as a pivot and then sort all the elements around it. I could never wrap my head around how it worked and how I could implement it in my projects. 
+So naturally, I skipped all my exam questions that were related to it and chose to forget its existance. 
+But now, I decided to face my fears and finally tackle the quick sort problem and find out what made it so "quick". Here's how I set about doing so and ended up being super comfortable with it. </p>
+<p><br /></p>
+<h3><b> What is Quick Sort? </b></h3>
+<p>Quick Sort is a Divide and Conquer algorithm. It begins by picking an element from the list, called <i>pivot</i> and then re-arranges the rest of the elements in the list around this pivot to finally give us a sorted array.</p>
+<h3><b> How Does It Work? </b></h3>
+<p>The first step is to choose an element as a pivot from the array of unsorted elements. The pivot can be selected in any of the following ways:<br /></p>
+<ul>
+    <li>The first element of the array.</li>
+    <li>The last element of the array. </li>
+    <li>Any random element in the array. </li>
+</ul>
+<p>After practicing for a while, I ended up choosing the first element as the pivot by habbit. I will stick to the same in this document.<br />
+Once the pivot is picked, it is placed at its sorted position in the array and the elements that are smaller than it in value are placed to its left, and those that are larger than it in value are placed to its right. 
+<br />
+<br />The heart of the Quick Sort algorithm is the <i><b>patition</b></i> function. The partition function returns the sorted position of the pivot element. Once the pivot is placed in its sorted position, the array is divided (partitioned) at this index and the quick sort algorithm is recursively applied to both the partitions. In the end, we are left with the entirely sorted array. 
+<br />
+The pseudo code for the <b><i>partition</i></b> function is:</p>
+:ET

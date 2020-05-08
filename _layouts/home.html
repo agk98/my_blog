@@ -123,9 +123,8 @@ layout: page
 		</div>
 		<div class="post">
 			{%- if site.show_excerpts -%}
-			{{ post.excerpt }}
-			{%- endif -%}
 			{{ post.excerpt | truncate: 300}}
+			{%- endif -%}
 		</div>
 		<div>
 			<form action="{{ post.url | relative_url }}">
