@@ -73,7 +73,7 @@ As we are using the image as a desktop background, I prefer downloading the high
     <li> <b>url.urlretrieve(retrieval_url, file_name)</b> downloads the image using the url and stores it in the current working directory with the file_name. </b></li>
 </ul>
 
-<p>Setting the wallpaper</p>
+<p><b>Step 3:</b> Setting the wallpaper</p>
 <script src="https://gist.github.com/agk98/d57b06059621c18fa926613e28a68648.js"></script>
 <ul>
     <li> The <b>SystemParametersInfoW</b> function is a direct Windows interface.</li>
