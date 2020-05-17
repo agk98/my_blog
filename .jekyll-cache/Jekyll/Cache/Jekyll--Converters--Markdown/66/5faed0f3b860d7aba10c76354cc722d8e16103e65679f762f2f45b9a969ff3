@@ -1,6 +1,0 @@
-I"<p> My brother gifted me a Raspberry Pi 3B a couple of months back. After tinkering around with it for a few days, I kept it aside because I couldn't think of any use case for it that would benefit me everyday. This was until I learned about NAS and its technologies in one of my courses at college.<br /> I found it really cool that you can have a Network Attached Storage to access the same files through any deivce on the network. This would allow me to finally have a centralized storage to host a media center and also store some static files and documents. Ever since then, I have been playing with the idea of building a NAS using my pi. I managed to set it up in less than a day. And it's been a huge help at home. <br />
-I could have setup the NAS by using OpenMediaVault  a NAS solution based on Debian Linux, which does all the heavy lifting for you and sets up all things that are necessary. But, I wanted to use this time to do all the steps myself and learn a lot along the way.</p>
-
-<!-- Section one -->
-<h2><b> Hardware: </b></h2>
-:ET
