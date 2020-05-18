@@ -19,7 +19,7 @@ comments: false
 <ul>
     <li> Raspberry Pi 3 model B.</li>
     <li> Ethernet Cord. </li>
-    <li> One 500 GB Segate External Hard disk.</li>
+    <li> One 500 GB Seagate External Hard disk.</li>
     <li> 16GB class 4 microSD card, loaded with Raspbian Buster Lite. </li>
     <li> Power Source. </li>
 </ul>
