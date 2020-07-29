@@ -4,6 +4,7 @@ title:  "How I Learned Quick Sort!"
 description: I always dreaded the idea of working with Quick Sort. Here, I show you how that changed.
 date:   2020-04-10
 categories: Algorithms Sorting
+comments: False
 ---
 <p>I was first introduced to Quick Sort in my Algorithm's class at college. All that I could understand from my professor was that the algorithm used to select an element as a pivot and then sort all the elements around it. I could never wrap my head around how it worked and how I could implement it in my projects. 
 So naturally, I skipped all my exam questions that were related to it and chose to forget its existance. 

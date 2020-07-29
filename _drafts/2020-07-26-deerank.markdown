@@ -6,4 +6,6 @@ date:   2020-07-28
 categories: One Day Builds
 comments: false
 ---
-
+<p> I took up a weekend project and built my own Discord bot with python. With the on-going pandemic, and limited outside access, I have come back to being an avid gamer. With multiplayer FPS games, communication is the key for ensuring victory. For reliable comms, my friends and I use Discord. For those of you who dont know, Discord is an instant messaging and VoIP application that enables users to create guilds(commonly known as servers) and allows us to have multiple voice channels in them as well. This makes it very convenient to stay in contact, and making sure that I carry our team to victory. 
+</p>
+<p>Discord has a feature that allows users to add <b>Bots</b> to the guild. A Bot is basically a computer program that is built to perform actions assigned to them by its developer. These Bots are invoked by a pre-assigned command, followed by arguments. For example, the Rhythm Bot allows a user to play songs in the voice channel that he is currently in. 
