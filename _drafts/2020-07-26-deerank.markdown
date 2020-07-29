@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "I build a Discord bot using Python!"
+description: I took up a small project over the weekend, to build a discord bot that I could add to my discord guild dedicated to gaming!
+date:   2020-07-28
+categories: One Day Builds
+comments: false
+---
+
