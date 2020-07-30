@@ -8,4 +8,29 @@ comments: false
 ---
 <p> I took up a weekend project and built my own Discord bot with python. With the on-going pandemic, and limited outside access, I have come back to being an avid gamer. With multiplayer FPS games, communication is the key for ensuring victory. For reliable comms, my friends and I use Discord. For those of you who dont know, Discord is an instant messaging and VoIP application that enables users to create guilds(commonly known as servers) and allows us to have multiple voice channels in them as well. This makes it very convenient to stay in contact, and making sure that I carry our team to victory. 
 </p>
-<p>Discord has a feature that allows users to add <b>Bots</b> to the guild. A Bot is basically a computer program that is built to perform actions assigned to them by its developer. These Bots are invoked by a pre-assigned command, followed by arguments. For example, the Rhythm Bot allows a user to play songs in the voice channel that he is currently in. 
+<p>Discord has a feature that allows users to add <b>Bots</b> to the guild. A Bot is basically a computer program that is built to perform actions assigned to them by its developer. These Bots are invoked by a pre-assigned command, followed by arguments. For example, the Rhythm Bot allows a user to play songs in the voice channel that he is currently in. There are a plethora of Bots that you can find online that do just about everything you command it to. Infact, when I was searching for the right Bot for me, I was faced with the problem of too many choices. Instead, I chose to build my own Bot.</p>
+
+<h3><b>About my Discord Bot. </b></h3>
+<p> One of the most common things that you'd get to read about my guild's conversations is that we deerank a lot in our games. The opponent team always has someone who's cheating (we're just really bad). Keeping with this trend, I named my bot as <b>DeeRank</b>.</p>
+<p>The next thing I had to focus on is what DeeRank would be able to do for you(the user). After some thinking, googling and asking around, I came up with a short list of things that DeeRank would be programmed to do. <br>Here's a list of the Bot's functionalities:
+<ol>
+    <li>Commands only for Admin</li>
+        <ul>
+            <li>Kick</li>
+            <li>Ban</li>
+            <li>leave</li>
+        </ul>
+    <li>Commands for Everyone</li>
+    <ul>
+        <li>8ball</li>
+        <li>dad_joke</li>
+        <li>df</li>
+        <li>memez</li>
+    </ul>
+</ol>
+<br>To speak to DeeRank, you'd have to precede the command with <b>></b> symbol. This way, DeeRank knows that you're commanding it to do something. <br>
+DeeRank has got quite a potty mouth and wouldn't handle mistakes very well. Just keep that in mind if you plan on adding it to your guild. </p>
+
+<h3><b>
+
+
