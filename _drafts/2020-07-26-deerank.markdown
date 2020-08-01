@@ -28,7 +28,7 @@ comments: false
         <li>memez</li>
     </ul>
 </ol>
-<br>To speak to DeeRank, you'd have to precede the command with <b>></b> symbol. This way, DeeRank knows that you're commanding it to do something. <br>
+<br>To speak to DeeRank, you'd have to precede the command with <b>></b> symbol.<br>
 DeeRank has got quite a potty mouth and wouldn't handle mistakes very well. Just keep that in mind if you plan on adding it to your guild. </p>
 
 <h3><b>A Close Look At The Bot's Code </b></h3>
@@ -37,32 +37,52 @@ DeeRank has got quite a potty mouth and wouldn't handle mistakes very well. Just
         <h4><b>Start Point</b></h4>
         <script src="https://gist.github.com/agk98/7ff299cb72ec710906da4ec7a135a998.js"></script>
         <p>
+            Discord has made it very simple to interact with their API by publishing the discord.py package. The discord.py package is a python wrapper for Discord's API. To write all the commands that can be issues to the Bot, discord.py provides extensions. This is imported from <b>discord.ext</b>.
+        </p>
+        <p>
+            The first step is to create an instance of the discord bot. Over here, my Bot is named as <b>deerank</b> and this serves as the client which interacts with the discord API. The <b>commands_prefix</b> parameter if to specify what the prefix is to be used when the Bot is invoked by a user. This was, the Bot knows that the user is commanding it to perform a task.
+        </p>
+        <p>
+            A very useful feature of discord.py is that it enable the usage of <b>Cogs</b>. Each cog is a Python class that subclasses <b>commands.Cog</b> and allows me to organise a collection of commands, listeners, and some state into one class. Cogs are thus classes which need to be loaded to be used and unloaded to be removed from the Bot's functionality. The <b>load</b> and <b>unload</b> function enables this functionality. 
+        </p>
+        <p>
+            To run the program, the Bot needs to get authorisation from discord, to be able to interact with the API. For this, it has to connect to the discord server's using it's own Client secret ID. The client secret ID, I stored in another file, to keep it hidden. The file reading code is to read the file and retrieve the Client Secret ID before it runs the program.
         </p>
     </li>
-
-
-</ul>
-
-
-
-
-
-
-<!-- <p>
-    Discord has made it easy for developers to use their API by releasing the discord.py wrapper. The bot's code is written in python and it is able to interact with the Discord API through this wrapper. 
-</p>
-<ol>
     <li>
-        <h4><b>Commands only for Admin</b></h4>
-        <ul>
+        <h4><b>Commands For The Admin</b></h4>
+        <script src="https://gist.github.com/agk98/8bd3134f170ff77f4fd94cadfc3426d6.js"></script>
+        <p>
+            There are some commands which I have added and are to be used only by the Admin of the guild. This avoids unnecessary conflicts and abuse of Administrator powers of the bots. When issuing commands to the Bot, command handlers as functions are programmed into the Bot's code. <b>@commands.command()</b> of the commands extension from discord.py provides support for this.<br/>
+            The Bot is able to read the commands issued to it due to the context of the message being fed to it as a parameter of the command. This parameter is <b>ctx</b> and the Bot sends messages to the server and that channel with the help of <b>ctx.send()</b>. Through ctx, the Bot is able to extract valurable information such as, the user who issued the command, the guild that the user belongs to, the userID, etc..
+        </p>
+        <ol>
             <li>
-                <h5><b>>Kick</b></h5>
+                <b>>kick</b>
+                <p>Parameters: <b>{member: Required} </b></p>
                 <p>
-                    The Administrator of the guild has the 
+                    This command allows for the Admin to kick a member out of the guild. When a user first issues this command, the bot first authenticates to check whether the issuer is the admin of the guild, or no. If not, the Bot replies with a message asking the user to contact the admin to issue the command. The bot verifies this by checking whether the issuer's ID and the guild's ID is the same or no. On the other hand, if the admin is the one who issued to command, then the Bot immediately kicks the member out of the guild and follows with a cheeky message saying that the player has been DeeRanked. 
+                    In case the Bot encounters any errors while carrying out this command, it invokes the <b>kick_error()</b> error handler. This error handler is responsible for checking whether it is a known or unknown error. The two known probable errors are: <b>commands.BadArgument</b> and <b>commands.MissingRequiredArgument</b>. The <b>commands.BadArgument</b> is matched when the command parameter doesn't contain the name of a person in the guild. The <b>commands.MissingRequiredArgument</b> is matched when the issuer forgets to include the name of the member they wish to kick from the guild.
                 </p>
             </li>
-        </ul>
+            <li>
+                <b>>ban</b><br/>
+                <p>Parameters: <b>{member: Required}</b></p>
+                <p>
+                    This command invokes the Bot to ban a member from the guild, disallowing them to join the guild again. The functionality and the code of this command is almost entirely the same as that of <b>>kick</b> command. The only difference is that, the Bot executes the <b>member.ban()</b> command instead of the <b>member.kick</b> command. 
+                </p>
+            </li>
+            <li>
+                <b>>leave</b><br/>
+                <p>
+                    When this command is issued by the admin of the guild, it forces the bot to go offline, making it unavailable to accept commands from users.
+                </p>
+            </li>
+        </ol>
     </li>
-</ol> -->
+    <li>
+        <h4><b>Commands For Everyone</b></h4>
 
+    </li>
+</ul>
 
