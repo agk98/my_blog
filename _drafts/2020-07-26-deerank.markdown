@@ -31,16 +31,38 @@ comments: false
 <br>To speak to DeeRank, you'd have to precede the command with <b>></b> symbol. This way, DeeRank knows that you're commanding it to do something. <br>
 DeeRank has got quite a potty mouth and wouldn't handle mistakes very well. Just keep that in mind if you plan on adding it to your guild. </p>
 
-<h3><b>A Close Look At The Commands </b></h3>
+<h3><b>A Close Look At The Bot's Code </b></h3>
+<ul>
+    <li>
+        <h4><b>Start Point</b></h4>
+        <script src="https://gist.github.com/agk98/7ff299cb72ec710906da4ec7a135a998.js"></script>
+        <p>
+        </p>
+    </li>
+
+
+</ul>
+
+
+
+
+
+
+<!-- <p>
+    Discord has made it easy for developers to use their API by releasing the discord.py wrapper. The bot's code is written in python and it is able to interact with the Discord API through this wrapper. 
+</p>
 <ol>
     <li>
         <h4><b>Commands only for Admin</b></h4>
         <ul>
             <li>
-                <h5><b>Kick</b></h5>
+                <h5><b>>Kick</b></h5>
+                <p>
+                    The Administrator of the guild has the 
+                </p>
             </li>
         </ul>
     </li>
-</ol>
+</ol> -->
 
 
