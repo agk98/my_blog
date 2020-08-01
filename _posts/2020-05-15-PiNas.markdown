@@ -11,7 +11,7 @@ comments: false
 <p> I could gone with using OpenMediaVault ( a NAS solution based on Debian Linux) which would set up the NAS for me without me having to do all the heavy lifting. But, where's the fun in taht? So, I took out my black hoodie and did what every professional programmer does. I googled for answers to all my questions. And in a couple of hours, I was done with setting up my very own NAS using the Raspberry Pi.</p>
 
 <div style="text-align:center">
-    <img src="\images\blog_3_setup.jpg">
+    <img src="\images\blog3\blog_3_setup.jpg">
 </div>
 
 <!-- Section one -->
@@ -93,7 +93,7 @@ These grab and install all the latest versions of the packages in raspbian, ensu
 ```
 <p> Now, when I keyed in <b>ls /</b> again, the color of PiServer had changed to green, indicating that I have sucessfully changed its access permissions. </p>
 <div style="text-align:center">
-    <img src="\images\blog_3_folder_mount.png">
+    <img src="\images\blog3\blog_3_folder_mount.png">
 </div>
 <p> <b> Mount Drive:</b><br/>
     Now, I had to mount my drive to that directory. Only with this, would the file system know where and how my data is stored on the hard disk. To check the name and status of my hard disk, I used the <b>lsblk</b> command. Now that I had the name of my hard disk, I went ahead and mounted it to the Pi by using:
@@ -103,7 +103,7 @@ These grab and install all the latest versions of the packages in raspbian, ensu
 ```
 <p> When I keyed in the <b>lsblk</b> command in again, the hard disk's status showed me that it had sucessfully got mounted.</p>
 <div style="text-align:center">
-    <img src="\images\blog_3_sda_mount.png">
+    <img src="\images\blog3\blog_3_sda_mount.png">
 </div>
 
 <p> <b> Configuring samba:</b><br/>
@@ -170,7 +170,7 @@ These grab and install all the latest versions of the packages in raspbian, ensu
 ```
 <p> This would prompt me with the username and password. Once I was through that, I would be presented with the directories and its contents.
 <div style="text-align:center">
-    <img src="\images\blog_3_NAS_directory.png">
+    <img src="\images\blog3\blog_3_NAS_directory.png">
 </div>
 As of now, I am using my PiNAS to store movies and a few important documents.
 </p>
