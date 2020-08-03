@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "I Deployed My First Discord Bot!"
-description: I spent the weekend in developing my very first discord bot using Python. I successfully deployed it on Heroku, making sure that it runs all-day long, without me having to run the script on my own computer. In this blog, I tell you about what my bot does and how I did it.
+description: I wrote and developed my first Discord Bot with Python. I successfully deployed it on Heroku, making sure that it runs all-day long, without me having to run the script on my own computer. In this blog, I tell you about what my bot does and how I did it.
 date:   2020-08-03
 categories: One Day Builds
 comments: false
 ---
 <p> 
-    I took up a weekend project and built my own Discord bot with Python. If you dont know what Discord is, it is an instant messaging and VoIP application that enables users to create guilds(commonly known as servers) and allows them to have multiple voice channels in them as well. As a gamer, reliable communication while in-game is key to ensuring a win. And Discord's services offer reliable comms for my team, making it easier for me carry my team to victory. 
+    I took up a weekend project to build my own Discord bot with Python. If you dont know what Discord is, it is an instant messaging and VoIP application that enables users to create guilds(commonly known as servers) and allows them to have multiple voice channels in them as well. As a gamer, reliable communication while in-game is key to ensuring a win. And Discord's services offer reliable comms for my team, making it easier for me carry my team to victory. 
 </p>
 <p>
     Among Discord's bag of tricks, one of my favorite is that it allows users to add <b>Bots</b> to the guild. A Bot is basically a computer program that is built to perform actions assigned to them by its developer. For example, the Rhythm Bot allows a user to play songs in the voice channel that he is currently in. These Bots are invoked by a pre-assigned command, followed by arguments. There are a plethora of Bots that you can find online that do just about everything you command it to. Infact, when I was searching for the right Bot for me, I was faced with the problem of too many choices. Instead, I chose to build my own Bot.
@@ -26,8 +26,8 @@ comments: false
 <ol>
     <li>Commands only for Admin</li>
         <ul>
-            <li>Kick</li>
-            <li>Ban</li>
+            <li>kick</li>
+            <li>ban</li>
             <li>leave</li>
         </ul>
     <li>Commands for Everyone</li>
@@ -40,10 +40,10 @@ comments: false
 </ol>
 DeeRank has got quite the potty mouth and wouldn't handle mistakes very well. Just keep that in mind if you plan on adding it to your guild. </p>
 
-<h2><b>A Close Look At The Bot's Code </b></h2>
+<h2><b>A Close Look At The Bot's Code. </b></h2>
 <ul>
     <li>
-        <h3><b>Start Point</b></h3>
+        <h3><b>Entry Point</b></h3>
         <script src="https://gist.github.com/agk98/7ff299cb72ec710906da4ec7a135a998.js"></script>
         <p>
             Discord has made it very simple to interact with their API by publishing the discord.py package. The discord.py package is a Python wrapper for Discord's API. The package provides all the extensions and functions needed to write commands that can be issued to the Bot. This is imported from <b>discord.ext</b>.
