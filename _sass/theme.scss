@@ -28,12 +28,12 @@ body {
 }
 
 a {
-	color: $linkColor;
+	color: #49bf9d;
 	text-decoration: none;
 	transition: border-bottom 0.4s;
 	&:hover {
-		border-bottom: 0.5px solid $linkColor;
-		
+		// border-bottom: 0.5px solid $linkColor;
+		color: #25a17e !important;
 	}
 }
 

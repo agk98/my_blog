@@ -125,8 +125,8 @@ input[type="button"],
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     background-color: transparent;
     border-radius: 0.35em;
-    border: solid 3px #efefef;
-    color: #787878 !important;
+    border: solid 3px #d1d1d1;
+    color: #8a8a8a !important;
     cursor: pointer;
     display: inline-block;
     font-weight: 400;
@@ -156,6 +156,7 @@ input[type="button"],
         border-color: #49bf9d;
         color: #49bf9d !important;
     }
+    
 
     input[type="submit"].icon,
     input[type="reset"].icon,
