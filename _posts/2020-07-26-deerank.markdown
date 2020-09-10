@@ -150,7 +150,14 @@ DeeRank has got quite the potty mouth and wouldn't handle mistakes very well. Ju
     </div>
 </p>
 <p>
-    All of DeeRank's source code is in my <a  href="https://github.com/agk98/deerank_bot" target="_blank">Github repository</a>.<br/>Have a great day!
+    All of DeeRank's code is availabe on my GitHub.
+</p>
+<div style="text-align:center">
+    <a class="no_underline" href="https://github.com/agk98/deerank_bot" target="_blank"><input type="button" value="DeeRank's Source Code"></a>
+    <!-- All of DeeRank's source code is in my <a  href="https://github.com/agk98/deerank_bot" target="_blank">Github repository</a>. -->
+</div>
+<p>
+    Have a great day!
 </p>
 <h2><b>References</b></h2>
 <p>

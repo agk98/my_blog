@@ -92,7 +92,14 @@ As we are using the image as a desktop background, I prefer downloading the high
 
 <h2><b> Thank You!</b></h2>
 <p> You have made it to the end of this article. This is how I took care of the menacing task of searching for a new wallpaper every few days.<p>
-<p> All my code for this project is in my <a href="https://github.com/agk98/auto_wallpaper" target="_blank"> GitHub Repositoy</a>.</p>
+
+<p> All my code for this project is in my GitHub Repositoy.</p>
+<div style="text-align:center">
+    <a class="no_underline" href="https://github.com/agk98/auto_wallpaper" target="_blank"><input type="button" value="AutoWallpaper's Source Code"></a>
+</div>
+
+
+
 <br/> 
 I hope this helps you too!<br/>
 Happy Coding!</p> 
