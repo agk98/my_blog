@@ -104,7 +104,7 @@ comments: False
     With this, I was able to implement backtracking technique to solve these puzzles easily. This shows that the technique is very efficient in solving techniques and substituting it for some scenraios where brute-force would take way too long. This concludes the post. As usual, the entire code to both implementations can be found on my Github repository.
 </p>
 <div style="text-align:center">
-    <a class="no_underline" href="https://github.com/agk98/sudoku_solving" target="_blank"><input type="button" value="Puzzle Solver Source Code"></a>
+    <a class="no_underline" href="https://github.com/agk98/Puzzle_solvers" target="_blank"><input type="button" value="Puzzle Solver Source Code"></a>
 </div>
 
 <h2><b>References</b></h2>
